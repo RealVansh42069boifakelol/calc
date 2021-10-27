@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Calculator</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="dropdownn">
+            <button class="linkk">Operation</button>
+            <div class="dropdown-menuu">
+                <button onclick="TurnAdd();">+</button>
+                <button onclick="TurnSub();">-</button>
+                <button onclick="TurnMult();">x</button>
+                <button onclick="TurnDivide();">/</button>
+            </div>
+        </div>
+
+        <center>
+            <h1 style="font-weight: bold; font-family: 'Courier New', Courier, monospace;" class="text-bold">CALCULATOR</h1>
+            <h4 style="color:red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Note : Please dont cheat on maths test</h4>
+
+            <h2 id="ans"></h2>
+
+            <input id="input1" class="inputNumber">
+            <br>
+            <input id="input2" class="inputNumber">
+            <br>
+            <button onclick="Calculate();">Calculate</button>
+        </center>
+    </body>
+</html>
